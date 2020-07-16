@@ -61,10 +61,7 @@ def experiment(hat, expected_balls, num_balls_drawn, num_experiments):
         quantity, return all the balls."
 
     Does 'return all the balls' refer to  (1) return the balls from the draw method?
-    That portion of the README is discussing the draw method. But it might mean
-    to (2) return hat to its initial state. In regular english, the first is suggested
-    but logically the second makes sense; check the results till the hat is empty or
-    near empty then continue with a reset hat.
+    That portion of the README is discussing the draw method.
 
     '''
     foundit = 0
